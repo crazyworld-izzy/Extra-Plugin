@@ -50,7 +50,13 @@ async def ctest(_, message):
     cid = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
         return await message.reply_text("Tʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ᴡᴏʀᴋs ɪɴ ɢʀᴏᴜᴘs.")
-
+try:
+     #  is_selected = await get_couple(cid, today)
+     #  if not is_selected:
+         msg = await message.reply_sticker("CAACAgUAAxkBAAL-0mZJuwJ-P_4dk8ItUfr_9rRr__3TAAItCgACbSIxVU73XyUpZXrhHgQ")
+         #GET LIST OF USERS
+         list_of_users = []
+    
     p1_path = "downloads/pfp.png"
     p2_path = "downloads/pfp1.png"
     test_image_path = f"downloads/test_{cid}.png"
