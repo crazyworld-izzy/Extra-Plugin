@@ -9,13 +9,16 @@ from VIPMUSIC.utils.database import get_served_chats
 # Convert AUTO_GCAST to boolean based on "On" or "Off"
 AUTO_GCASTS = AUTO_GCAST.strip().lower() == "on"
 
-START_IMG_URLS = "https://envs.sh/I0U.jpg"
+START_IMG_URLS = "https://telegra.ph/file/01626a4a06b561efdd8dc.jpg"
 
-MESSAGE = f"""**๏ ᴛʜɪs ɪs ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs + ᴄʜᴀɴɴᴇʟs ᴠᴄ. 💌
+MESSAGE = f"""𝐈ᴛ'ꜱ 𝐓ʜᴇ 𝐌ᴏꜱᴛ 𝐓ʜᴇᴍᴇ-ᴀʙʟᴇ 𝐎ꜰ 𝐀ʟʟ 𝐒ᴩᴇᴄɪꜰɪᴄ 𝐁ᴏᴛꜱ 𝐓ʜᴇ 𝐍ᴇᴛᴡᴏʀᴋ 𝐈ꜱ 𝐁ᴀꜱᴇᴅ 𝐎ɴ 𝐃ᴇᴠᴇʟᴏᴩɪɴɢ 𝐁ᴏᴛꜱ 𝐀ɴᴅ 𝐆ɪᴠɪɴɢ 𝐓ʜᴇ 𝐒ᴄᴏᴩᴇ 𝐎ꜰ 𝐀ʟʟ 𝐅ᴇᴀᴛᴜʀᴇꜱ 𝐎ꜰ 𝐓ʜᴇ 𝐔ᴩᴄᴏᴍɪɴɢ 𝐁ᴏᴛꜱ.
 
-🎧 ᴘʟᴀʏ + ᴠᴘʟᴀʏ + ᴄᴘʟᴀʏ 🎧
+𝐅ʀᴏᴍ 𝐓ʜᴇ 𝐍ᴇᴛᴡᴏʀᴋ - 𝐖ᴇ 𝐀ʀᴇ 𝐏ʀᴇꜱᴇɴᴛɪɴɢ 𝐓ʜᴇ 
 
-➥ sᴜᴘᴘᴏʀᴛᴇᴅ ᴡᴇʟᴄᴏᴍᴇ - ʟᴇғᴛ ɴᴏᴛɪᴄᴇ, ᴛᴀɢᴀʟʟ, ᴠᴄᴛᴀɢ, ʙᴀɴ - ᴍᴜᴛᴇ, sʜᴀʏʀɪ, ʟᴜʀɪᴄs, sᴏɴɢ - ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅ, ᴇᴛᴄ... ❤️
+𝐈ᴛ 𝐈ꜱ 𝐎ɴᴇ 𝐎ꜰ 𝐓ʜᴇ 𝐌ᴏꜱᴛ 𝐀ᴅᴠᴀɴᴄᴇᴅ 𝐁ᴏᴛꜱ 𝐈ɴ 𝐓ʜᴇ 𝐍ᴇᴛᴡᴏʀᴋ.
+
+𝐖ʜɪᴄʜ 𝐇ᴀꜱ 𝐁ᴇᴇɴ 𝐔ᴩᴅᴀᴛᴇᴅ 𝐒ɪɴᴄᴇ 𝐀 𝐖ʜɪʟᴇ.
+
 
 🔐ᴜꜱᴇ » [/start](https://t.me/{app.username}?start=help) ᴛᴏ ᴄʜᴇᴄᴋ ʙᴏᴛ
 
@@ -25,7 +28,7 @@ BUTTON = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏",
+                "🍷 𝐊𖽹𖽴𖽡𖽖𖽳 𝐌𖽞 😻",
                 url=f"https://t.me/THE_NANCY_ROBOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
             )
         ]
