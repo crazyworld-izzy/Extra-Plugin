@@ -52,7 +52,7 @@ async def tag_all_users(_, message):
                     continue
                 usernum += 1
                 usertxt += f"[{m.user.first_name}](tg://user?id={m.user.id})  "
-                if usernum == 7:
+                if usernum == 2:
                     await replied.reply_text(
                         usertxt,
                         disable_web_page_preview=True,
@@ -85,7 +85,7 @@ async def tag_all_users(_, message):
                     continue
                 usernum += 1
                 usertxt += f"[{m.user.first_name}](tg://user?id={m.user.id})  "
-                if usernum == 7:
+                if usernum == 2:
                     await app.send_message(
                         message.chat.id,
                         f"{text}\n{usertxt}",
@@ -133,7 +133,7 @@ async def tag_all_admins(_, message):
                     continue
                 usernum += 1
                 usertxt += f"[{m.user.first_name}](tg://user?id={m.user.id})  "
-                if usernum == 7:
+                if usernum == 2:
                     await replied.reply_text(
                         usertxt,
                         disable_web_page_preview=True,
@@ -167,7 +167,7 @@ async def tag_all_admins(_, message):
                     continue
                 usernum += 1
                 usertxt += f"[{m.user.first_name}](tg://user?id={m.user.id})  "
-                if usernum == 7:
+                if usernum == 2:
                     await app.send_message(
                         message.chat.id,
                         f"{text}\n{usertxt}",
