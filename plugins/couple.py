@@ -57,8 +57,8 @@ try:
          #GET LIST OF USERS
          list_of_users = []
     
-    p1_path = "assets/Couple.png"
-    p2_path = "downloads/pfp1.png"
+    p1_path = "assets/upic.png"
+    p2_path = "assets/upic.png"
     test_image_path = f"downloads/test_{cid}.png"
     cppic_path = "downloads/cppic.png"
 
