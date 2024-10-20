@@ -29,7 +29,7 @@ BUTTON = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 "🍷 𝐊𖽹𖽴𖽡𖽖𖽳 𝐌𖽞 😻",
-                url=f"https://t.me/THE_NANCY_ROBOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
+                url=f"https://t.me/Cutegirl_music_bot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
             )
         ]
     ]
