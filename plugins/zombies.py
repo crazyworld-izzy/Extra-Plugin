@@ -89,7 +89,7 @@ async def remove(client, message):
         await asyncio.sleep(e.value)
 
 
-__MODULE__ = "Zᴏᴍʙɪᴇs"
+__MODULE__ = "🍷 𝐙𖽙𖽧𖽜𖽹𖽞𖾗 😻"
 __HELP__ = """
 **commands:**
 - /zombies: ʀᴇᴍᴏᴠᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs ғʀᴏᴍ ᴛʜᴇ ɢʀᴏᴜᴘ.
