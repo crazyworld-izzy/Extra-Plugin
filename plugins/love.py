@@ -48,7 +48,7 @@ def love_command(client, message):
     app.send_message(message.chat.id, response)
 
 
-__MODULE__ = "Lᴏᴠᴇ"
+__MODULE__ = "🍷 𝐋𖽙ᴠ𖽞 😻"
 __HELP__ = """
 **ʟᴏᴠᴇ ᴄᴀʟᴄᴜʟᴀᴛᴏʀ:**
 
