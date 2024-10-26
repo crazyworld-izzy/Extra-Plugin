@@ -88,24 +88,20 @@ async def help(client: Client, message: Message):
     )
 
 
-__MODULE__ = "Sʜᴀʏᴀʀɪ"
+__MODULE__ = "🍷 𝐔𖽷𖽪𖾓𖾓𖽪 😻"
 __HELP__ = """
-/ɢғ, /ʙғ, /sʜᴀʏʀɪ, /sᴀʀɪ, /sʜᴀʀɪ, /ᴏᴠᴇ: Gᴇᴛ ᴀ ʀᴀɴᴅᴏᴍ Sʜᴀʏᴀʀɪ.
+/uruttu, /pickup : Gᴇᴛ ᴀ ʀᴀɴᴅᴏᴍ Sʜᴀʏᴀʀɪ.
 
 Tʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡᴏʀᴋs ɪɴ ʙᴏᴛʜ ᴘʀɪᴠᴀᴛᴇ ᴀɴᴅ ɢʀᴏᴜᴘ ᴄʜᴀᴛs. Iᴛ ᴘʀᴏᴠɪᴅᴇs ᴀ ʀᴀɴᴅᴏᴍ ᴘɪᴇᴄᴇ ᴏғ Sʜᴀʏᴀʀɪ ғʀᴏᴍ ᴀ ᴘʀᴇᴅᴇғɪɴᴇᴅ ɪsᴛ. Tʜᴇ ʀᴇᴘʏ ɪɴᴄᴜᴅᴇs ʙᴜᴛᴛᴏɴs ғᴏʀ sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴏғғɪᴄɪᴀ ᴄʜᴀɴɴᴇs.
 
 Fᴇᴀᴛᴜʀᴇs:
-- Pʀᴏᴠɪᴅᴇs ᴀ ʀᴀɴᴅᴏᴍ Sʜᴀʏᴀʀɪ ᴏɴ ᴄᴏᴍᴍᴀɴᴅ.
+- Pʀᴏᴠɪᴅᴇs ᴀ ʀᴀɴᴅᴏᴍ uruttu ᴏɴ ᴄᴏᴍᴍᴀɴᴅ.
 - Aᴠᴀɪᴀʙᴇ ɪɴ ʙᴏᴛʜ ᴘʀɪᴠᴀᴛᴇ ᴀɴᴅ ɢʀᴏᴜᴘ ᴄʜᴀᴛs.
 - Iɴᴄᴜᴅᴇs ɪɴɪɴᴇ ᴋᴇʏʙᴏᴀʀᴅ ʙᴜᴛᴛᴏɴs ғᴏʀ ᴀᴅᴅɪᴛɪᴏɴᴀ sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴏғғɪᴄɪᴀ ɪɴᴋs.
 
 Cᴏᴍᴍᴀɴᴅs:
-- /ɢғ
-- /ʙғ
-- /sʜᴀʏʀɪ
-- /sᴀʀɪ
-- /sʜᴀʀɪ
-- /ᴏᴠᴇ
+- /pickup
+- /uruttu
 
 Nᴏᴛᴇ: Tʜɪs ʙᴏᴛ ᴘʀᴏᴠɪᴅᴇs ɪɴᴋs ᴛᴏ sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴏғғɪᴄɪᴀ ᴄʜᴀɴɴᴇs ғᴏʀ ғᴜʀᴛʜᴇʀ ᴀssɪsᴛᴀɴᴄᴇ.
 """
@@ -158,7 +154,7 @@ async def send_good_night():
             shayari = random.choice(night_shayari)
             await app.send_photo(
                 chat_id,
-                photo="https://telegra.ph//file/06649d4d0bbf4285238ee.jpg",
+                photo="https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
                 caption=f"**{shayari}**",
                 reply_markup=add_buttons,
             )
@@ -182,7 +178,7 @@ async def send_good_morning():
             shayari = random.choice(morning_shayari)
             await app.send_photo(
                 chat_id,
-                photo="https://telegra.ph//file/14ec9c3ff42b59867040a.jpg",
+                photo="https://telegra.ph/file/01626a4a06b561efdd8dc.jpg",
                 caption=f"**{shayari}**",
                 reply_markup=add_buttons,
             )
