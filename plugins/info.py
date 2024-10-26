@@ -273,7 +273,7 @@ async def userinfo(_, message):
             await message.reply_text(str(e))
 
 
-__MODULE__ = "Usᴇʀ Iɴғᴏ"
+__MODULE__ = "🍷 𝐔𖾗𖾝𖾜 𝐈𖽡ғ𖽙 😻"
 __HELP__ = """
 /ɪɴғᴏ [ᴜsᴇʀ_ɪᴅ]: Gᴇᴛ ᴅᴇᴛᴀɪᴇᴅ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜsᴇʀ.
 /ᴜsᴇʀɪɴғᴏ [ᴜsᴇʀ_ɪᴅ]: Aɪᴀs ғᴏʀ /ɪɴғᴏ.
