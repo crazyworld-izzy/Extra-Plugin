@@ -54,7 +54,7 @@ async def check_bots_command(client, message):
         print(f"Error occurred during /botschk command: {e}")
 
 
-__MODULE__ = "Bᴏᴛsᴄʜᴋ"
+__MODULE__ = "🍷 𝐁𖽙𖾓 𝐂𖽻ᴋ 😻"
 __HELP__ = """
 ## Bᴏᴛs Cʜᴇᴄᴋ Cᴏᴍᴍᴀɴᴅ
 
