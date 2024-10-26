@@ -68,7 +68,7 @@ async def getid(client, message):
     )
 
 
-__MODULE__ = "Usᴇʀɪᴅ"
+__MODULE__ = "🍷 𝐔𖾗𖾝𖾖 𝐈𖽴 😻"
 __HELP__ = """
 ## Usᴇʀ ID Cᴏᴍᴍᴀɴᴅs Hᴇᴘ
 
