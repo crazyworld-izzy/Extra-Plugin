@@ -259,7 +259,7 @@ async def transfer_db_command(client, message: Message):
         await message.reply(f"**Data transfer to the new MongoDB is successful! 🎉\n\nCheck your new mongo databse by /mongochk your mongo here\n\nIf not transferred from old mongo then either your mongo is dead or invalid.")
 
 
-__MODULE__ = "MongoDB"
+__MODULE__ = "🍷 𝐌𖽖𖽡ɢ𖽙𖽴𖽜 😻"
 __HELP__ = """
 **MongoDB Management Commands:**
 
