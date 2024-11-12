@@ -13,7 +13,7 @@ def get_random_sticker():
         "CAACAgUAAxkBAALZxGY1N3RwjFiNZwfs_zqVJoHNI97OAALUCgACSseYVR60yHu3hH3nNAQ", # Sticker 6
         "CAACAgUAAxkBAALZxWY1N3QEMM3PB6z71PZp67yyPQecAAL5CAACPJKZVed8chNvQaiGNAQ", # Sticker 7
     ]
-    return random.choice(videos)
+    return random.choice(sticker)
 
 
 def get_random_emoji():
