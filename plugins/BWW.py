@@ -3,7 +3,7 @@ from pyrogram import filters
 import random
 from VIPMUSIC import app
 
-def get_random_video():
+def get_random_sticker():
    stickers = [
         "CAACAgIAAxkBAALZv2Y1N3SQv-XLAAEWoEPuRHKhcBS8ogACzUMAAkIx6UjssitCRhpjxjQE", # Sticker 1
         "CAACAgIAAxkBAALZwGY1N3R92y-_7iflIJnbC1LFA5xiAAKZOwAC8rboSJO_j_VUOTKeNAQ", # Sticker 2
