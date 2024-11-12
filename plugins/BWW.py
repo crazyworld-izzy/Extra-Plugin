@@ -31,8 +31,8 @@ async def goodnight_command_handler(_, message):
     sender = message.from_user.mention
     send_video = random.choice([True, False])
     if send_video:
-        video_id = get_random_video()
-        await app.send_video(message.chat.id, video_id)
+        sticker_id = get_random_sticker()
+        app.send_sticker(message.chat.id, sticker_id)
         await message.reply_text(f"**𝐈ʀᴜᴋᴀ 𝐏ᴀᴋᴋᴀᴍᴇᴀ 𝐄ᴀ 𝐈ᴘᴀᴅɪ 𝐕ᴀʀᴛʜᴀ 𝐏ᴇʀsᴀ 🥺🥺</b>\n\n<b> {sender}</b>\n\n<b>𝐁ʙʏ 𝐈ᴘᴀᴅɪ 𝐋ᴀ 𝐏ᴇᴀsᴀᴛʜᴀ 𝐊ᴀsᴛʜᴀᴍ 𝐈ʀᴜᴋᴜ 🥺👩‍🦯👩‍🦯🚶‍♀**")
     else:
         emoji = get_random_emoji()
