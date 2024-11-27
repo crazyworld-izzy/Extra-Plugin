@@ -258,7 +258,7 @@ async def manual(app, cb):
     return await cb.message.delete()
 
 
-__MODULE__ = "🍷 𝐀𖽳𖽳𖽷𖽙ᴠ𖽞 😻"
+__MODULE__ = "Aᴘᴘʀᴏᴠᴇ"
 __HELP__ = """
 command: /autoapprove
 
