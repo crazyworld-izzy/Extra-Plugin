@@ -5,9 +5,16 @@ from VIPMUSIC import app
 
 def get_random_sticker():
     stickers = [
-        "CAACAgUAAx0CeympyQAC27tnSLpbHB1FoZu8VLPeIbi2GqK5mQACCAoAAtnGEVUI8XD0aKvG9B4E", # Sticker 1
-        "CAACAgUAAx0CeympyQAC27tnSLpbHB1FoZu8VLPeIbi2GqK5mQACCAoAAtnGEVUI8XD0aKvG9B4E", # Sticker 2
-        "CAACAgUAAx0CeympyQAC27tnSLpbHB1FoZu8VLPeIbi2GqK5mQACCAoAAtnGEVUI8XD0aKvG9B4E", # Sticker 3
+        "CAACAgQAAxkBAALZeGY1ILUPxohB0luoydqksVTuoX4zAAIHEAACLNsJUL3QO8ZF22ANNAQ", # Sticker 1
+        "CAACAgEAAxkBAALZeWY1ISKokwYWad4wKQABfS_9_jx0cwACXgQAAjO2mUdGJHmjJt0XijQE", # Sticker 2
+        "CAACAgUAAxkBAALZemY1IWcGaVbdSngItwwX45xTT9QIAAIHCQACq6yJV0lq6JFdFk7rNAQ", # Sticker 3
+        "CAACAgUAAxkBAALZe2Y1IXOtVPGl4fazaqYAARMduBhFzwACIQoAAp3ykFeX0LLsBqaZ8zQE", # Sticker 4
+        "CAACAgUAAxkBAALZfGY1Ic97NbnmKZpoSfzBfTXN_p84AALuBQAC5tOxVCQr3PRKSJ9vNAQ", # Sticker 5
+        "CAACAgUAAxkBAALZfWY1IeUXeA9R8CR8l8L21f8XGW4lAAJABwACkLqwVODj_VQsKv8CNAQ", # Sticker 6
+        "CAACAgQAAxkBAALZfmY1IgdQZG1hUEnvgqra-eRHVvTTAAJPDgACVBOpUJTgjnyWTMB-NAQ", # Sticker 7
+        "CAACAgUAAxkBAALZkGY1JTTDtrQkb-RHipGbThlTLB4tAALPCAACfqvBVy9tJEb8PKOZNAQ", # Sticker 8
+        "CAACAgUAAxkBAALZkWY1JTjpG3dCi9Vcoyq92vrpj2gQAALYBwAC1X3AV_SIwOW7YwO7NAQ", # Sticker 9
+        "CAACAgUAAxkBAALZkmY1JUIVQ0wbdKfjRpfrIoNMK3iVAAK6BwACMenIVydDlnhGaHYtNAQ", # Sticker 10
     ]
     return random.choice(stickers)
 
@@ -21,18 +28,18 @@ def get_random_emoji():
     return random.choice(emojis)
 
 ###### GOOOD MORNING 
-@app.on_message(filters.command(["m","oodmorning"], prefixes=["g","G"]))
+@app.on_message(filters.command(["ood night","ood night","i8","weet dreams","weet dreams","i8","n","n"], prefixes=["g","G","n","N","s","S","g","G"]))
 async def goodnight_command_handler(_, message):
     sender = message.from_user.mention
     send_sticker = random.choice([True, False])
     if send_sticker:
         sticker_id = get_random_sticker()
         await app.send_sticker(message.chat.id, sticker_id)
-        await message.reply_text(f"**𝒢𝑜𝑜𝒹 𝑀𝑜𝓇𝓃𝒾𝓃𝑔, {sender} 𝐻𝒶𝓋𝑒 𝒜 𝐵𝓁𝑒𝓈𝓈𝑒𝒹 𝒟𝒶𝓎 🥰**")
+        await message.reply_text(f"**𝐂ʜʟᴍ 𝐕.ᴄᴀʟʟ 𝐏ᴇᴀsᴀʟᴀᴍ 𝐏ᴀʀᴛʜᴀ 𝐀ᴛʜᴜᴋᴜʟʟᴀ 𝐓ʜᴜɴɢᴀ 𝐏ᴏʀɪʏᴇᴀ 🥺😢👩‍🦯 {sender} 𝐂ʜᴇʀʀɪ 𝐁ʙʏ 𝐍ᴀᴍᴍᴀ 𝐃ʀᴇᴀᴍ 𝐋ᴀ 𝐑ᴏᴍᴀɴᴄᴇ 𝐏ᴀɴɴᴀʟʟᴀᴍ 🙈😏❤️**")
     else:
         emoji = get_random_emoji()
         try:
            await message.react(emoji)
         except:
         	pass
-        await message.reply_text(f"**𝒢𝑜𝑜𝒹 𝑀𝑜𝓇𝓃𝒾𝓃𝑔, {sender}𝐻𝒶𝓋𝑒 𝒜 𝐵𝓁𝑒𝓈𝓈𝑒𝒹 𝒟𝒶𝓎 {emoji}**")
+        await message.reply_text(f"**𝐂ʜʟᴍ 𝐕.ᴄᴀʟʟ 𝐏ᴇᴀsᴀʟᴀᴍ 𝐏ᴀʀᴛʜᴀ 𝐀ᴛʜᴜᴋᴜʟʟᴀ 𝐓ʜᴜɴɢᴀ 𝐏ᴏʀɪʏᴇᴀ 🥺😢👩‍🦯 {sender}𝐂ʜᴇʀʀɪ 𝐁ʙʏ 𝐍ᴀᴍᴍᴀ 𝐃ʀᴇᴀᴍ 𝐋ᴀ 𝐑ᴏᴍᴀɴᴄᴇ 𝐏ᴀɴɴᴀʟʟᴀᴍ 🙈😏❤️ {emoji}**")
