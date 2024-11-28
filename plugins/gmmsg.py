@@ -3,14 +3,13 @@ from pyrogram import filters
 import random
 from VIPMUSIC import app
 
-def get_random_video():
+def get_random_sticker():
     videos = [
-        "https://telegra.ph/file/2c63e594336bfab096835.mp4", # video 1
-        "https://telegra.ph/file/8e5a08a654079fef23659.mp4", # video 2
-        "https://telegra.ph/file/7dd498fb3c0ddd6c17e84.mp4", # video 3
-        "https://telegra.ph/file/941f1237d433974398b12.mp4",
+       "CAACAgQAAxkBAALZeGY1ILUPxohB0luoydqksVTuoX4zAAIHEAACLNsJUL3QO8ZF22ANNAQ", # Sticker 1
+        "CAACAgEAAxkBAALZeWY1ISKokwYWad4wKQABfS_9_jx0cwACXgQAAjO2mUdGJHmjJt0XijQE", # Sticker 2
+        "CAACAgUAAxkBAALZemY1IWcGaVbdSngItwwX45xTT9QIAAIHCQACq6yJV0lq6JFdFk7rNAQ", # Sticker 3
     ]
-    return random.choice(videos)
+    return random.choice(stickers)
 
 
 def get_random_emoji():
@@ -25,10 +24,10 @@ def get_random_emoji():
 @app.on_message(filters.command(["m","oodmorning"], prefixes=["g","G"]))
 async def goodnight_command_handler(_, message):
     sender = message.from_user.mention
-    send_video = random.choice([True, False])
-    if send_video:
-        video_id = get_random_video()
-        await app.send_video(message.chat.id, video_id)
+    send_sticker = random.choice([True, False])
+    if send_sticker:
+        sticker_id = get_random_sticker()
+        await app.send_sticker(message.chat.id, video_id)
         await message.reply_text(f"**𝒢𝑜𝑜𝒹 𝑀𝑜𝓇𝓃𝒾𝓃𝑔, {sender} 𝐻𝒶𝓋𝑒 𝒜 𝐵𝓁𝑒𝓈𝓈𝑒𝒹 𝒟𝒶𝓎 🥰**")
     else:
         emoji = get_random_emoji()
