@@ -27,7 +27,7 @@ async def goodnight_command_handler(_, message):
     send_sticker = random.choice([True, False])
     if send_sticker:
         sticker_id = get_random_sticker()
-        await app.send_sticker(message.chat.id, video_id)
+        await app.send_sticker(message.chat.id, sticker_id)
         await message.reply_text(f"**𝒢𝑜𝑜𝒹 𝑀𝑜𝓇𝓃𝒾𝓃𝑔, {sender} 𝐻𝒶𝓋𝑒 𝒜 𝐵𝓁𝑒𝓈𝓈𝑒𝒹 𝒟𝒶𝓎 🥰**")
     else:
         emoji = get_random_emoji()
