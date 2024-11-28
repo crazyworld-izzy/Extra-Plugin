@@ -5,9 +5,9 @@ from VIPMUSIC import app
 
 def get_random_sticker():
     videos = [
-       "CAACAgQAAxkBAALZeGY1ILUPxohB0luoydqksVTuoX4zAAIHEAACLNsJUL3QO8ZF22ANNAQ", # Sticker 1
-        "CAACAgEAAxkBAALZeWY1ISKokwYWad4wKQABfS_9_jx0cwACXgQAAjO2mUdGJHmjJt0XijQE", # Sticker 2
-        "CAACAgUAAxkBAALZemY1IWcGaVbdSngItwwX45xTT9QIAAIHCQACq6yJV0lq6JFdFk7rNAQ", # Sticker 3
+        "CAACAgUAAx0CeympyQAC27tnSLpbHB1FoZu8VLPeIbi2GqK5mQACCAoAAtnGEVUI8XD0aKvG9B4E", # Sticker 1
+        "CAACAgUAAx0CeympyQAC27tnSLpbHB1FoZu8VLPeIbi2GqK5mQACCAoAAtnGEVUI8XD0aKvG9B4E", # Sticker 2
+        "CAACAgUAAx0CeympyQAC27tnSLpbHB1FoZu8VLPeIbi2GqK5mQACCAoAAtnGEVUI8XD0aKvG9B4E", # Sticker 3
     ]
     return random.choice(stickers)
 
