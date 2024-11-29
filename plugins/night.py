@@ -6,6 +6,8 @@ from VIPMUSIC import app
 def get_random_sticker():
     stickers = [
         "CAACAgUAAxkBAAIUG2dKAAHoSq62dFqSmzkAATF2M6MHKZUAAi8QAALidVBV7KjurHhZEHceBA", # Sticker 1
+        "CAACAgUAAxkBAAIUG2dKAAHoSq62dFqSmzkAATF2M6MHKZUAAi8QAALidVBV7KjurHhZEHceBA", # Sticker 2
+        "CAACAgUAAxkBAAIUG2dKAAHoSq62dFqSmzkAATF2M6MHKZUAAi8QAALidVBV7KjurHhZEHceBA", # Sticker 3
     ]
     return random.choice(stickers)
 
