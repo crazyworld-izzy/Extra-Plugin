@@ -28,7 +28,7 @@ from VIPMUSIC.core.call import VIP
 
 
 @app.on_message(
-    filters.command(["vcuser", "vcusers", "vcmember", "vcmembers"]) & filters.admin
+    filters.command(["vcuser", "vcusers", "vcmember", "vcmembers"])
 )
 async def vc_members(client, message):
     try:
